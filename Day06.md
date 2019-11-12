@@ -33,6 +33,6 @@ Eureka
 </dependencyManagement>
 ```
 
-spring boot注解添加
+spring boot启动类注解添加
 >@EnableEurekaServer
 
