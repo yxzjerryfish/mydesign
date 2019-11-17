@@ -11,7 +11,7 @@ Spring Boot 工程创建
 添加actuator
 
 
-```
+```xml
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-actuator</artifactId>
@@ -26,14 +26,13 @@ Spring Boot 工程创建
 management.endpoints.web.exposure.include=*
 ```
 
-
 <https://docs.spring.io/spring-boot/docs/2.0.6.RELEASE/reference/htmlsingle/#production-ready-endpoints-exposing-endpoints> endpoint对应解释参照
 
 
 
 添加 swagger
 
-```
+```xml
 <dependency>
     <groupId>io.springfox</groupId>
     <artifactId>springfox-swagger2</artifactId>

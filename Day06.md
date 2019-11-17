@@ -6,20 +6,20 @@ Eureka
 
 引入maven
 
-```
+```xml
 <properties>
     <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
 </properties>
 ```
 
-```    &lt;dependencyManagement&gt;
+```xml
 <dependency>
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 </dependency>
 ```
 
-```
+```xml
 <dependencyManagement>
     <dependencies>
         <dependency>
