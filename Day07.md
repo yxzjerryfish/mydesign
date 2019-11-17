@@ -15,3 +15,24 @@
 </dependency>
 ```
 
+将其注册到eureka上
+
+```yaml
+eureka:  
+	client:    
+		serviceUrl:      
+			defaultZone: http://localhost:1111/eureka
+```
+
+配置映射
+
+```yaml
+zuul:  
+	routes:    
+		route-name:      
+			service-id: DATABASE      
+			path: /database
+```
+
+在这个版本中，因为只是一个简单的demo，只做到这些，等后续再来实现其余功能
+
